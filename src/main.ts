@@ -5,10 +5,10 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
-    .setTitle('Books')
-    .setDescription('The Books CRUD API description for OPEN! Technical Test')
+    .setTitle('Users')
+    .setDescription('The CRUD API With Authentication')
     .setVersion('1.0')
-    .addTag('books')
+    .addTag('users')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);

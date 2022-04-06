@@ -11,6 +11,9 @@ export class AppService {
     <p>To Add one book /books @POST</p>
     <p>To Modify one book by _id /books/:id @PATCH </p>
     <p>To Remove one book by _id /books/:id @DELETE </p>
+
+    <h2>Users</h2>
+    <p>To fetch one user by id</p>
     </main>`;
   }
 }
